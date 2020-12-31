@@ -1,0 +1,8 @@
+# The path for the folder where all reslts will be stored
+workingPath: 'D:/MeSH_extension/'
+# The path to the folder with the CSV files from the excecution of the MeSH_Harvesting project
+csvPath: 'D:/MeSH_extension/2005_2020_results/'
+# The last year to consider in the analysis
+lastYear: 2020
+# The first year to consider in the analysis
+firstYear: 2005

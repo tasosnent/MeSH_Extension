@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51c25528-45ce-4f23-85fa-24def5a20721" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/settings.yaml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>seliali</find>
+      <find>serial</find>
+      <find>&gt;&gt;&gt;</find>
+      <find>&gt;&gt;</find>
+      <find>pair</find>
+      <find>sibl</find>
+      <find>mesh</find>
+      <find>cate</find>
+      <find>serialized</find>
+      <find>serializedfields</find>
+      <find>plotLines</find>
+      <find>print(</find>
+      <find>print</find>
+      <find>dict_keys</find>
+      <find>large = s &gt; cutoff</find>
+      <find>list(</find>
+      <find>fieldList</find>
+      <find>yearsDFtotal[cProvTypeField]</find>
+      <find>cProvTypeField</find>
+      <find>seria</find>
+      <find>corr</find>
+      <find>str(types).split(&quot;-&quot;)</find>
+      <find>yaml</find>
+      <find>getUseCasesFromCSV</find>
+      <find>path</find>
+      <find>&gt;&gt;&gt;&gt;</find>
+      <find>phCountField</find>
+      <find>prefix</find>
+      <find>yearStart</find>
+      <find>yearsField</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>)</replace>
+      <replace>labelNames_list</replace>
+      <replace>&quot;\n\t</replace>
+      <replace>being</replace>
+      <replace>'abbreviation'</replace>
+      <replace />
+      <replace>columns</replace>
+      <replace>counts</replace>
+      <replace>':</replace>
+      <replace>exp_dir</replace>
+      <replace>exp_dir +</replace>
+      <replace>MA1</replace>
+      <replace>manual_dataset_1_pmids</replace>
+      <replace>manual_dataset_1_dir</replace>
+      <replace>mysklearn</replace>
+      <replace>sklearn</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="6b3698297a66e5332eede8eaaa9cf1afcec27713" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Testing.py" />
+        <option value="$PROJECT_DIR$/DatasetEvaluate.py" />
+        <option value="$PROJECT_DIR$/ViolinPlot.py" />
+        <option value="$PROJECT_DIR$/ExportForATSI.py" />
+        <option value="$PROJECT_DIR$/ExportForMedx.py" />
+        <option value="$PROJECT_DIR$/.ipynb_checkpoints/AssignInMedx.py" />
+        <option value="$PROJECT_DIR$/.ipynb_checkpoints/InterAnnotatorAgreement.py" />
+        <option value="$PROJECT_DIR$/InterAnnotatorAgreement.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/InterAnnotatorStudy.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/TestDatasetTransform.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/DatasetCreate.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/TrainingDatasetTransform.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/TrainingDatasetAnalyze.py" />
+        <option value="$PROJECT_DIR$/DatasetCreate.py" />
+        <option value="$PROJECT_DIR$/ClassifierCreate.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/TestDatasetCreateByMA.py" />
+        <option value="$PROJECT_DIR$/TestDatasetCreateByMA.py" />
+        <option value="$PROJECT_DIR$/TestDatasetTransform.py" />
+        <option value="$PROJECT_DIR$/TrainingDatasetTransform.py" />
+        <option value="$PROJECT_DIR$/TrainingDatasetAnalyze.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/TrainingDatasetTransform.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/TrainingDatasetAnalyze.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/TestDatasetTransform.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/ClassifierCreate.py" />
+        <option value="$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/notebooks/BeyondMeSH/DatasetFunctions.py" />
+        <option value="$PROJECT_DIR$/BeyondMeSH.ipynb" />
+        <option value="$PROJECT_DIR$/ExportToMedx.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/Pipeline.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/DatasetFunctions.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/Pipeline.py" />
+        <option value="$PROJECT_DIR$/venv/Script.py" />
+        <option value="$PROJECT_DIR$/Script.py" />
+        <option value="$PROJECT_DIR$/AssignInMedx.py" />
+        <option value="$PROJECT_DIR$/GetFromMedx.py" />
+        <option value="$PROJECT_DIR$/InterAnnotatorStudy.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/urls.py" />
+        <option value="$PROJECT_DIR$/venv/RunExperiment.py" />
+        <option value="$PROJECT_DIR$/runDatasetStats.py" />
+        <option value="$PROJECT_DIR$/runUseCaseStats.py" />
+        <option value="$PROJECT_DIR$/Pipeline.py" />
+        <option value="$PROJECT_DIR$/RunExperiment.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/RunExperiment.py" />
+        <option value="$PROJECT_DIR$/DatasetFunctions.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/RunUseCaseStats.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/DatasetFunctions.py" />
+        <option value="$PROJECT_DIR$/RunUseCaseStats.py" />
+        <option value="$PROJECT_DIR$/venv/CalculateStats.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/CalculateStats.py" />
+        <option value="$PROJECT_DIR$/StatFunctions.py" />
+        <option value="$PROJECT_DIR$/settings.yaml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="245" />
+    <option name="y" value="39" />
+    <option name="width" value="1400" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="MeSHToUMLS" type="cbb8eebc:String" user="MeSHToUMLS" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MeSH_Provenance_Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MeSH_Provenance_Analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/tasosnent/Desktop/Tasks/0 All Projects/MeSHToUMLS/Pipeline.py&#10;readDataset&#9;null&#9;null" />
+    <property name="last_opened_file_path" value="D:/MeSH_Extension/MeSH_Provenance_Analysis" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tasosnent\Desktop\Tasks\0 All Projects\MeSHToUMLS" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tasosnent\Desktop\Tasks\0 All Projects\MeSHToUMLS" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.CalculateStats">
+    <configuration name="MeSHtoUMLS" type="JupiterNotebook" factoryName="Jupyter Notebook">
+      <module name="MeSHtoUMLS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\tasosnent\Desktop\Tasks\0 All Projects\MeSHtoUMLS\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+    </configuration>
+    <configuration name="CalculateStats" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MeSHtoUMLS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CalculateStats.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="CreateClassifier" type="PythonConfigurationType" factoryName="Python">
+      <module name="MeSHtoUMLS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\tasosnent\Desktop\Tasks\0 All Projects\MeSHToUMLS\ClassifierCreate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="DatasetFunctions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MeSHtoUMLS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DatasetFunctions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MeSHtoUMLS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pipeline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="RunExperiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MeSHtoUMLS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RunExperiment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="RunUseCaseStats" type="PythonConfigurationType" factoryName="Python">
+      <module name="MeSHtoUMLS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\02 GitCode\JDL_code\MeSH_Conceptual_Provenance\MeSH_Provenance_Analysis\StatFunctions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="TransformDataset" type="PythonConfigurationType" factoryName="Python">
+      <module name="MeSHtoUMLS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\tasosnent\Desktop\Tasks\0 All Projects\MeSHToUMLS\TrainingDatasetTransform.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="runDatasetStats" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MeSHtoUMLS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\tasosnent\Desktop\Tasks\0 All Projects\MeSHToUMLS\RunUseCaseStats.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Jupyter Notebook.MeSHtoUMLS" />
+      <item itemvalue="Python.TransformDataset" />
+      <item itemvalue="Python.CreateClassifier" />
+      <item itemvalue="Python.RunUseCaseStats" />
+      <item itemvalue="Python.Pipeline" />
+      <item itemvalue="Python.DatasetFunctions" />
+      <item itemvalue="Python.RunExperiment" />
+      <item itemvalue="Python.runDatasetStats" />
+      <item itemvalue="Python.CalculateStats" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.CalculateStats" />
+        <item itemvalue="Python.RunExperiment" />
+        <item itemvalue="Python.runDatasetStats" />
+        <item itemvalue="Python.Pipeline" />
+        <item itemvalue="Python.DatasetFunctions" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51c25528-45ce-4f23-85fa-24def5a20721" name="Default" comment="" />
+      <created>1526042623226</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526042623226</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Read labels CVS with CUI as index.&#10;Add date-time printing at the beginning and end of scripts.&#10;In reading CUI occurrences, handle articles without any CUI occurrence.&#10;Fix label order in CSV when writing vectorized dataset.">
+      <created>1539161791962</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1539161791962</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Add ExportForATSI that creates a TSV to import articles in the Annotation Tool for Semantic Indexing">
+      <created>1539176203022</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1539176203022</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Add AssignInMedX that creates a TSV to import article assignments to expert users of the Annotation Tool for Semantic Indexing">
+      <created>1539187941984</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1539187941984</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Add dominantLabel and preferredConcept to be handled in simplifying problem formulation (and remove &quot;invalid combination filtering&quot;).&#10;Handle pmidlist for any Manually Annotated dataset.&#10;Print processing time.">
+      <created>1546530963951</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1546530963951</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Add GetFromMedx and InterAnnotatorStudy that parses the CSV files exported from the Annotation Tool for Semantic Indexing and calculates some statistics of agreement.">
+      <created>1546963148644</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1546963148646</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Add requirements.txt file for automatic installation of required packages on linux systems using the following command:&#10;- sudo pip install -r requirements.txt">
+      <created>1547048707557</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1547048707557</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Turn scripts into functions and create one single script (Pipeline.py) to call them all using the same configurations, paths etc.">
+      <created>1547553344966</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1547553344966</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Fix estimation of baselines considering the dominant label.&#10;Also add LogisticRegression in types of classifiers.">
+      <created>1547649508914</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1547649508915</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Reorganize Functions&#10;Write dataset without &quot;rest&quot;&#10;Write MA dataset without cTop">
+      <created>1548259517428</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1548259517429</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Soft cTop removal: Remove cTop only for measure calculation (macro-averaging)">
+      <created>1548772525777</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1548772525777</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Fix bugs in cTop soft removal.">
+      <created>1548774668471</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1548774668471</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Add cTop/cPref removal from evaluation.&#10;Add training with Cross-Validation. &#10;Delete deprecated files (before Pipline introduction)">
+      <created>1550595509172</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1550595509173</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Move classifier types setting in Pipeline.&#10;Remove hardcoded &quot;NoFS_0&quot; name in call of baseline predictions function so that &quot;NoFS_0&quot; can be optional in initial settings.&#10;Add comments in baseline predictions.">
+      <created>1550840032255</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1550840032255</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Re-arrange some settings in Pipeline.">
+      <created>1550849218168</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1550849218168</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Use concept occurrence actual Frequency (instead of binary frequency) for semantic features.">
+      <created>1551092627137</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1551092627137</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Remove hardcoded &quot;NoFS_0&quot; name in pipeline so that &quot;NoFS_0&quot; can be optional in initial settings.">
+      <created>1551098283453</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1551098283453</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Remove weighting from getTopFeatures() to avoid calculating again the same weights for different values of k.">
+      <created>1551781244507</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1551781244507</updated>
+    </task>
+    <task id="LOCAL-00047" summary="comment update in getTopFeatures()">
+      <created>1551781601479</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1551781601479</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Add ignoreLabelFeatures flag so that the CUIs usef for weak labeling are excluded from feature space with feature selection&#10;(Actually, a weight of 0 is assigned to them priot to feature selection)">
+      <created>1551810104848</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1551810104848</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Sort output CSV files with evaluation results.">
+      <created>1552049809728</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1552049809728</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Add function createClassifier() for training a single classifier.">
+      <created>1552486218390</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1552486218391</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Modify function createClassifier() for relabeling the samples with the predicted labels for re-training iterations.">
+      <created>1553598340021</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1553598340021</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Implement sub-sampling of the &quot;major class&quot; (incomplete implementation)">
+      <created>1556896109984</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1556896109985</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Select the DMD MA1 and MA2 datasets">
+      <created>1557482485497</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1557482485498</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Implement sub-sampling of the &quot;major class&quot; (complete implementation tested in DMD use case)">
+      <created>1557489826556</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1557489826556</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Check for removing more than all available article during sub-sampling of the &quot;major class&quot;">
+      <created>1557849168605</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1557849168607</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Sub-sample/Under-sample using imblearn library">
+      <created>1557931741737</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1557931741738</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Run the Pipeline for both test sets (MA1 and MA2) at once.&#10;Add baseline &quot;random&quot;.&#10;Add createClassifiersRegC for training multiple classifiers for different values of regularization C.&#10;Add the expandDataset for adding articles in a dataset.">
+      <created>1561544439716</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1561544439716</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Add seeds for DTC training and &quot;random baseline&quot;.&#10;Add CV in testset baseline.">
+      <created>1569513893886</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1569513893886</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Running CV-baseline for several (hard-coded) Ks for K-fold cross-validation and saving all performances in the same result-excel.">
+      <created>1569604592663</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1569604592663</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Add random seed on subset selection for sub-sampling to be reproducible">
+      <created>1569923754208</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1569923754209</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Add use of setClfParameters in createClassifier for iteration experiments&#10;Add writing model predictions in CSV files in folder &quot;Predictions&quot; for ErrorAnalysis">
+      <created>1570011434120</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1570011434121</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Save predictions, golden labels and TFIDF features for the evaluations datasets on &quot;Predictions&quot; folder.&#10;Also save coefficients for LRC models.">
+      <created>1570033970417</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1570033970417</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Add &quot;stop-word removal&quot; and &quot;frequency-based token filters&quot; for lexical and semantic features.">
+      <created>1580381550421</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1580381550421</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Add &quot;Dictionary-based&quot; baseline (with hardcoded dictionaries for two use cases: AD and DMD)">
+      <created>1580404460219</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1580404460219</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Update &quot;Dictionary-based&quot; baseline (with hardcoded dictionaries for two use cases: AD and DMD)">
+      <created>1582125253791</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1582125253792</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Use ..._concepts.csv for dataset creation. &#10;(i.e. ..._Cts_inT.csv is not needed anymore.)">
+      <created>1582129867080</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1582129867080</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Use a JSON dictionary for each use case.">
+      <created>1583941752947</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1583941752948</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Massive running of experiments and use-case stats.">
+      <created>1585215231734</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1585215231734</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Add different types of use-case stats (Restriction levels, Provenance and Descendants).">
+      <created>1587565853472</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1587565853472</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Re-organize barchart stats creation.">
+      <created>1588773538963</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1588773538963</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Get line and basic correlation charts.">
+      <created>1590577441296</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1590577441296</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Support unserialized codes and types for development of Venn diagrams.">
+      <created>1605097611249</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1605097611250</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Remove low-frequency cases from Line diagramms.&#10;Calculate percentages for Categories and types.">
+      <created>1605898239996</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1605898239996</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Remove siblings and add horizontal oriantation fields.">
+      <created>1605900367033</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1605900367033</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Support fields for multirelated PHs and relation types per PH.&#10;Sort line diagramms and support bar chart sorting by value.">
+      <created>1606137625072</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1606137625073</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Support supprot YAML settings and reorganize files.">
+      <created>1609420400885</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1609420400886</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Add YAML settings file.">
+      <created>1609420628774</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1609420628774</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Simplify &quot;year&quot; fields in CSV.">
+      <created>1609423931131</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1609423931131</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49714285" visible="true" weight="0.17189385" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.2527964" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.19300362" side_tool="true" weight="0.34451902" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49698433" weight="0.4574944" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32997763" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8069964" weight="0.42841163" />
+      <window_info id="Structure" order="1" sideWeight="0.50285715" side_tool="true" weight="0.11700844" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32997763" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38143176" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49940476" weight="0.32662192" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.13389626" />
+      <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.13751508" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.2527964" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32997763" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46644294" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32997763" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005952" side_tool="true" weight="0.4619687" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32214764" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Check for removing more than all available article during sub-sampling of the &quot;major class&quot;" />
+    <MESSAGE value="Sub-sample/Under-sample using imblearn library" />
+    <MESSAGE value="Run the Pipeline for both test sets (MA1 and MA2) at once.&#10;Add baseline &quot;random&quot;.&#10;Add createClassifiersRegC for training multiple classifiers for different values of regularization C.&#10;Add the expandDataset for adding articles in a dataset." />
+    <MESSAGE value="Add seeds for DTC training and &quot;random baseline&quot;.&#10;Add CV in testset baseline." />
+    <MESSAGE value="Running CV-baseline for several (hard-coded) Ks for K-fold cross-validation and saving all performances in the same result-excel." />
+    <MESSAGE value="Add CV on training dataset baseline" />
+    <MESSAGE value="Add random seed on subset selection for sub-sampling to be reproducible" />
+    <MESSAGE value="Add use of setClfParameters in createClassifier for iteration experiments&#10;Add writing model predictions in CSV files in folder &quot;Predictions&quot; for ErrorAnalysis" />
+    <MESSAGE value="Save predictions, golden labels and TFIDF features for the evaluations datasets on &quot;Predictions&quot; folder.&#10;Also save coefficients for LRC models." />
+    <MESSAGE value="Add &quot;stop-word removal&quot; and &quot;frequency-based token filters&quot; for lexical and semantic features." />
+    <MESSAGE value="Add &quot;Dictionary-based&quot; baseline (with hardcoded dictionaries for two use cases: AD and DMD)" />
+    <MESSAGE value="Update &quot;Dictionary-based&quot; baseline (with hardcoded dictionaries for two use cases: AD and DMD)" />
+    <MESSAGE value="Use ..._concepts.csv for dataset creation. &#10;(i.e. ..._Cts_inT.csv is not needed anymore.)" />
+    <MESSAGE value="Use a JSON dictionary for each use case." />
+    <MESSAGE value="Massive running of experiments and use-case stats." />
+    <MESSAGE value="Add different types of use-case stats (Restriction levels, Provenance and Descendants)." />
+    <MESSAGE value="Re-organize barchart stats creation." />
+    <MESSAGE value="Get line and basic correlation charts." />
+    <MESSAGE value="Support unserialized codes and types for development of Venn diagrams." />
+    <MESSAGE value="Remove low-frequency cases from Line diagramms.&#10;Calculate percentages for Categories and types." />
+    <MESSAGE value="Remove siblings and add horizontal oriantation fields." />
+    <MESSAGE value="Support fields for multirelated PHs and relation types per PH.&#10;Sort line diagramms and support bar chart sorting by value." />
+    <MESSAGE value="Support supprot YAML settings and reorganize files." />
+    <MESSAGE value="Add YAML settings file." />
+    <MESSAGE value="Simplify &quot;year&quot; fields in CSV." />
+    <option name="LAST_COMMIT_MESSAGE" value="Simplify &quot;year&quot; fields in CSV." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="100" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CalculateStats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="120" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/ClassifierCreate.py" />
+    <entry file="file://$PROJECT_DIR$/TrainingDatasetAnalyze.py" />
+    <entry file="file://$PROJECT_DIR$/TestDatasetTransform.py" />
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/sklearn/model_selection/_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="638" selection-start-line="638" selection-end-line="638" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassifierCreate.py" />
+    <entry file="file://$PROJECT_DIR$/TrainingDatasetTransform.py" />
+    <entry file="file://$PROJECT_DIR$/DatasetCreate.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/Pipeline 2.py" />
+    <entry file="file://$USER_HOME$/WinPython-64bit-3.6.3.0Qt5/notebooks/BeyondMeSH/DatasetFunctions.py" />
+    <entry file="file://$PROJECT_DIR$/BeyondMeSH.ipynb" />
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1238">
+          <caret line="1919" column="4" selection-start-line="1919" selection-start-column="4" selection-end-line="1919" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/imblearn/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/sklearn/utils/multiclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2008">
+          <caret line="261" selection-start-line="261" selection-end-line="261" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/Pipeline.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/Pipeline.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/DatasetFunctions.py" />
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/pandas/core/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="1163" selection-start-line="1163" selection-end-line="1163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssignInMedx.py" />
+    <entry file="file://$PROJECT_DIR$/Script.py" />
+    <entry file="file://$PROJECT_DIR$/GetFromMedx.py" />
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/sklearn/metrics/scorer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-819">
+          <caret line="399" column="4" selection-start-line="399" selection-start-column="4" selection-end-line="399" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/imblearn/under_sampling/_prototype_selection/_random_under_sampler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/numpy/lib/npyio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="1416" selection-start-line="1416" selection-end-line="1416" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterAnnotatorStudy.py" />
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/sklearn/metrics/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="1436" selection-start-line="1436" selection-end-line="1436" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="4371" selection-start-line="4371" selection-end-line="4371" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/RunExperiment.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/RunUseCaseStats.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/DatasetFunctions.py" />
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="3064" selection-start-line="3064" selection-end-line="3064" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/urls.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/views.py" />
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/pandas/core/sorting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5236">
+          <caret line="249" selection-start-line="249" selection-end-line="249" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/matplotlib/patches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="2621" column="17" selection-start-line="2621" selection-start-column="8" selection-end-line="2621" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ViolinPlot.py" />
+    <entry file="file://$PROJECT_DIR$/Pipeline.py" />
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/pandas/plotting/_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="1976" selection-start-line="1976" selection-end-line="1976" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RunExperiment.py" />
+    <entry file="file://$PROJECT_DIR$/ExportToMedx.py" />
+    <entry file="file://$PROJECT_DIR$/DatasetFunctions.py" />
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/pandas/io/formats/csvs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/pandas/io/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="399" selection-start-line="399" selection-end-line="399" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/numpy/linalg/linalg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2360">
+          <caret line="1941" selection-start-line="1941" selection-end-line="1941" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AnacondaProjects/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="1744" selection-start-line="1744" selection-end-line="1744" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StatFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="524" column="41" selection-start-line="524" selection-start-column="31" selection-end-line="524" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculateStats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="120" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

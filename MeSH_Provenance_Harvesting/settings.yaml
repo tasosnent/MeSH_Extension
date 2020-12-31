@@ -1,0 +1,15 @@
+# The path for the folder where all reslts will be stored
+workingPath: 'D:\\MeSH_extension\\2005_2020_results'
+# The path to the flder with the XML files for all MeSH versions (both descXXXX.xml and suppXXXX.xml should be available)
+meshXmlPath: 'D:\\MeSH_XML_All'
+# If true, suggest mappings from new descriptors to SCRs (based on PMN fields etc) fr manual review.
+suggestPMNmappings: False
+# If true, calculate average No of concepts per SCR and Descriptor and print for each year.
+calculateConceptAVGs: False
+# If true, suggestinons for SCR-mapping suggestions will be printed for non-matched PMnotes in the log for manual checking. 
+# Additional information will also be printed in the log
+debugMode: False
+# The last year to consider in the analysis, also considered the reference year for provenance type calculation
+nowYear: 2020
+# The first year to consider in the analysis
+oldYearInitial: 2005
