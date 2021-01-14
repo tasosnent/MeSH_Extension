@@ -59,6 +59,7 @@ public class MeSHDiffHarvester {
      * Characters to consider when comparing terms for quasi-exact match
      */
     public static String re= "[^a-zA-Z0-9]"; // Characters to consider when comparing terms for quasi-exact match
+    public static String splitChar = "-"; // The character for joining/splitting serialized information
 
     /**
       * Initialize a Harvester for different versions of MeSH
@@ -110,7 +111,8 @@ public class MeSHDiffHarvester {
         suggestPMNmappings = (Boolean)s.getProperty("suggestPMNmappings");
         calculateConceptAVGs = (Boolean)s.getProperty("calculateConceptAVGs");
         debugMode = (Boolean)s.getProperty("debugMode");
-
+        splitChar = (String)s.getProperty("splitChar");
+                
         int nowYear = (Integer)s.getProperty("nowYear"); // Both the reference year and the last year to consider.
         int oldYearInitial = (Integer)s.getProperty("oldYearInitial");
         
@@ -654,14 +656,34 @@ public class MeSHDiffHarvester {
     /**
      * Find the hierarchical relation(s) between a descriptor d and a previous host descriptor ph.
      * @param d     The new descriptor
+     * @param phName    The previous host name
+     * @return      HashSet < String > the hierarchical relation(s) between d and ph
+     */
+    public HashSet<String> getHierarchicalRelations(Descriptor d, String phName){
+        HashSet<String> hrs = new HashSet<>();
+        if(this.descriptorExists(phName)){
+            Descriptor ph = this.descriptorNowTerms.get(phName);
+            hrs = getHierarchicalRelations(d, ph);
+        } else { // ph doesn't exist
+            // Undefined
+            hrs.add("und");
+        }
+        return hrs;
+    }    
+    
+    /**
+     * Find the hierarchical relation(s) between a descriptor d and a previous host descriptor ph.
+     * @param d     The new descriptor
      * @param ph    The previous host
      * @return      HashSet < String > the hierarchical relation(s) between d and ph
      */
     public HashSet<String> getHierarchicalRelations(Descriptor d, Descriptor ph){
         HashSet<String> hrs = new HashSet<>();
         if(this.descriptorExists(ph)){
-            for(String phTreeNumber : ph.getTreeNumbers()){
-                for(String dTreeNumber : d.getTreeNumbers()){
+            Descriptor phNow = this.descriptorsNowMap.get(ph.getDescriptorUI());
+            Descriptor dNow = this.descriptorsNowMap.get(d.getDescriptorUI());
+            for(String phTreeNumber : phNow.getTreeNumbers()){
+                for(String dTreeNumber : dNow.getTreeNumbers()){
                     if(dTreeNumber.contains(phTreeNumber)){
                         // ancestor
                         hrs.add("anc");
@@ -672,7 +694,7 @@ public class MeSHDiffHarvester {
                         // The two descriptors have identical tree number, this is not compatib with the model 
                         // identical
                         hrs.add("ide");   
-                        System.out.println("The descriptors have a common treenumber" + d + " > " + ph);
+                        System.out.println("The descriptors have a common treenumber" + d + " > " + phNow);
                     } else {
                         // Unrelated
                         hrs.add("unr");                                      
@@ -682,7 +704,10 @@ public class MeSHDiffHarvester {
         } else { // ph doesn't exist
             // Undefined
             hrs.add("und");                                      
-        }        
+        }    
+        if(hrs.isEmpty()){
+                        System.out.println("Empty relation found" + d + " > " + ph);
+        }
         return hrs;
     }
     
@@ -728,7 +753,7 @@ public class MeSHDiffHarvester {
     
     /**
      * Check if Descriptor d exists in the current version of MeSH
-     * @param d
+     * @param d a descriptor
      * @return 
      */
     public boolean descriptorExists(Descriptor d){
@@ -741,7 +766,7 @@ public class MeSHDiffHarvester {
     
     /**
      * Check if Descriptor d exists in the current version of MeSH
-     * @param d
+     * @param d the name of a descriptor
      * @return 
      */
     public boolean descriptorExists(String d){

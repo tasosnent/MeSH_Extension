@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51c25528-45ce-4f23-85fa-24def5a20721" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/settings.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="51c25528-45ce-4f23-85fa-24def5a20721" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +10,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CalculateStats.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalculateStats.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatFunctions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StatFunctions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/settings.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,8 +50,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>seliali</find>
-      <find>serial</find>
       <find>&gt;&gt;&gt;</find>
       <find>&gt;&gt;</find>
       <find>pair</find>
@@ -55,6 +78,8 @@
       <find>prefix</find>
       <find>yearStart</find>
       <find>yearsField</find>
+      <find>seri</find>
+      <find>&quot;-&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>)</replace>
@@ -76,7 +101,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="6b3698297a66e5332eede8eaaa9cf1afcec27713" />
@@ -134,9 +159,9 @@
         <option value="$PROJECT_DIR$/RunUseCaseStats.py" />
         <option value="$PROJECT_DIR$/venv/CalculateStats.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/CalculateStats.py" />
         <option value="$PROJECT_DIR$/StatFunctions.py" />
         <option value="$PROJECT_DIR$/settings.yaml" />
+        <option value="$PROJECT_DIR$/CalculateStats.py" />
       </list>
     </option>
   </component>
@@ -179,7 +204,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/tasosnent/Desktop/Tasks/0 All Projects/MeSHToUMLS/Pipeline.py&#10;readDataset&#9;null&#9;null" />
     <property name="last_opened_file_path" value="D:/MeSH_Extension/MeSH_Provenance_Analysis" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -752,10 +777,10 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49714285" visible="true" weight="0.17189385" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49714285" visible="true" weight="0.17189385" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.2527964" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.19300362" side_tool="true" weight="0.34451902" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49698433" weight="0.4574944" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.28106153" side_tool="true" visible="true" weight="0.4574944" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.71893847" visible="true" weight="0.4574944" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32997763" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8069964" weight="0.42841163" />
       <window_info id="Structure" order="1" sideWeight="0.50285715" side_tool="true" weight="0.11700844" />
@@ -1056,24 +1081,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CalculateStats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StatFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="524" column="41" selection-start-line="524" selection-start-column="31" selection-end-line="524" selection-end-column="41" />
+        <state relative-caret-position="484">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CalculateStats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="120" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="120" />
+        <state relative-caret-position="176">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>

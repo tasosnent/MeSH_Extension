@@ -1,7 +1,7 @@
 # The path for the folder where all reslts will be stored
-workingPath: 'D:\\MeSH_extension\\2005_2020_results'
+workingPath: 'D:\\05 MeSHToUMLS\\MeSH_extension\\2005_2020_results'
 # The path to the flder with the XML files for all MeSH versions (both descXXXX.xml and suppXXXX.xml should be available)
-meshXmlPath: 'D:\\MeSH_XML_All'
+meshXmlPath: 'D:\\03 Big Data\\MeSH_Old\\All'
 # If true, suggest mappings from new descriptors to SCRs (based on PMN fields etc) fr manual review.
 suggestPMNmappings: False
 # If true, calculate average No of concepts per SCR and Descriptor and print for each year.
@@ -13,3 +13,5 @@ debugMode: False
 nowYear: 2020
 # The first year to consider in the analysis
 oldYearInitial: 2005
+# The character for joining/splitting serialized information
+splitChar: '~'

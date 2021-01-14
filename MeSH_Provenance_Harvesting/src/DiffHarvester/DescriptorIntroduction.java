@@ -117,24 +117,22 @@ public class DescriptorIntroduction {
                 
             } else {// Existing SCR turns directly into descriptor
                 // get list of Previous descriptors
-                ArrayList <Descriptor> categoryTwoHosts = new ArrayList <Descriptor> ();
                 for(String dui : previousSCR.getDescriptorUIs()){
                     Descriptor pseudoHost = h.getDesciprotByID(dui);
-                    // Check if the name is still a term in any descritor
                     if(pseudoHost != null){
-                        categoryTwoHosts.add(pseudoHost);
+                        previousHostsAlive.add(pseudoHost);
                     }
                 }  
                 provenanceCategory = "2";
                 this.previousHostsTotal = previousSCR.getDescriptorUIs().size();
                 this.previousHosts.addAll(previousSCR.getDescriptorNames());
-                provenanceTypeMap = findProvenanceTypeMap(h, d, categoryTwoHosts, this.previousHostsTotal);
+                provenanceTypeMap = findProvenanceTypeMap(h, d, previousHostsAlive, this.previousHostsTotal);
 
             }
         } else {// Existing concept turns into descriptor
-            relation = d.getPreviousConceptRelation();
-            if(host != null && h.descriptorExists(host)){
-                previousHostsAlive.add(host);
+            relation = d.getPreviousConceptRelation();            
+            if( h.descriptorExists(host)){                
+                previousHostsAlive.add(h.getDesciprotByID(host.getDescriptorUI()));
             }
             provenanceCategory = "1";
             this.previousHostsTotal = 1;
@@ -255,7 +253,7 @@ public class DescriptorIntroduction {
             ,"" + getD().getConceptNames().size()   // "Ct size "
             ,"" + getParents().size()               // "par Ds size "
             ,getParents().toString()                // "parent Ds "
-            ,String.join("-",this.previousHosts)    // "PHs"
+            ,String.join(h.splitChar,this.previousHosts)    // "PHs"
             ,"" + getPHMultirelated().size()   // "#PHs multirelated"
             ,serializeArrayList(getPHMultirelated()) // "PHs multirelated"
             ,serializeArrayList(getHierarchicalRelations()) // "PH relations"
@@ -483,7 +481,7 @@ public class DescriptorIntroduction {
      * @return
      */
     public String serializeArrayList(ArrayList <String> pts){
-         return String.join("-", pts);
+         return String.join(h.splitChar, pts);
     }
     
     /**
@@ -538,8 +536,13 @@ public class DescriptorIntroduction {
     public ArrayList <String> getHierarchicalRelations(){
         ArrayList <String> ps = new ArrayList <> ();
         for(Descriptor p : this.previousHostsAlive){
-                ps.add(String.join(".", h.getHierarchicalRelations(this.d, p)));
+            ps.add(String.join(".", h.getHierarchicalRelations(this.d, p)));
         }
+        int deadPHs = this.previousHostsTotal - this.previousHostsAlive.size();
+        for(int i = deadPHs; deadPHs > 0; deadPHs--){
+            ps.add("und");
+        }
+
         return ps;        
     }
     

@@ -20,6 +20,8 @@ csvPath = settings["csvPath"]
 # The years considered in the analysis
 firstYear = settings["firstYear"]
 lastYear = settings["lastYear"]
+# The character for splitting serialized information
+splitChar = settings["splitChar"]
 
 # All fields available
 cProvCodeField = "Prov. Code"
@@ -44,7 +46,7 @@ noteField = "MeSH note"
 pervIndexField = "Prev. Indexing"
 yearsField = "year"
 
-# Fields serialized as strings separated with "-"
+# Fields serialized as strings separated with splitChar (e.g. "-")
 serializedFields = [cProvTypeField, cProvCodeField, phRelationField, categoriesField, phField]
 # serializedFields = [cProvTypeField]
 # horizontal bar fields
@@ -108,7 +110,7 @@ def getBarChart(yearsDFtotal, field, overflowLimit = None, FGDiseaseOnly = False
                 fieldValue = overflowLimit
             #  If serialized provenance, de-serialize it first
             if deserialize and field in serializedFields:
-                rlList = str(fieldValue).split("-")
+                rlList = str(fieldValue).split(splitChar)
             else:
                 # For non-serialized fields the list only has one element (a list used only for homogeneity of the code)
                 rlList = [fieldValue]
@@ -218,7 +220,7 @@ def getLineChart(yearsDFtotal, field, FGDiseaseOnly = False, provLevelPrefix = N
             valueList = [fieldValue]
             #  If serialized provenance, de-serialize it first
             if deserialize and field in serializedFields:
-                valueList = str(fieldValue).split("-")
+                valueList = str(fieldValue).split(splitChar)
             for fieldValue in valueList:
                 # print(fieldValue)
                 # print(variableToPlot[year].keys())
@@ -317,7 +319,7 @@ def getCorrelationChart(yearsDFtotal, FGDiseaseOnly = False, provLevelPrefix = N
                 valid = False
         # Restrict in descriptors with multiple provenance types
         types = yearsDFtotal[cProvTypeField];
-        typeList = str(types).split("-")
+        typeList = str(types).split(splitChar)
         if len(typeList) <= 1:
             valid = False  # Ignore cases with single Provenance types
         if valid:
@@ -331,7 +333,7 @@ def getCorrelationChart(yearsDFtotal, FGDiseaseOnly = False, provLevelPrefix = N
                 # Add this case in the casesToPlot
                 #  If serialized provenance, de-serialize it first
                 if deserialize and field in serializedFields:
-                    valueList = str(fieldValue).split("-")
+                    valueList = str(fieldValue).split(splitChar)
                 for fieldValue in valueList:
                     # fieldValueCode = field + "_" + fieldValue
                     fieldValueCode = fieldValue
@@ -424,7 +426,7 @@ def getPairsPlot(yearsDFtotal, FGDiseaseOnly = False, provLevelPrefix = None, de
                 valid = False
         # Restrict in descriptors with multiple provenance types
         types = yearsDFtotal[cProvTypeField].values[i];
-        typeList = str(types).split("-")
+        typeList = str(types).split(splitChar)
         # print(types, " > ", len(typeList), " > ", typeList)
         if len(typeList) <= 1 :
             valid = False # Ignore cases with single Provenance types
@@ -439,7 +441,7 @@ def getPairsPlot(yearsDFtotal, FGDiseaseOnly = False, provLevelPrefix = None, de
                 # Add this case in the casesToPlot
                 #  If serialized provenance, de-serialize it first
                 if deserialize and field in serializedFields:
-                    valueList = str(fieldValue).split("-")
+                    valueList = str(fieldValue).split(splitChar)
                 for fieldValue in valueList:
                     # fieldValueCode = field + "_" + fieldValue
 
@@ -540,7 +542,7 @@ def getPercentages(yearsDFtotal, field, FGDiseaseOnly = False, provLevelPrefix =
             fieldValue = yearsDFtotal[field].values[i]
             #  If serialized provenance, de-serialize it first
             if deserialize and field in serializedFields:
-                rlList = str(fieldValue).split("-")
+                rlList = str(fieldValue).split(splitChar)
             else:
                 # For non-serialized fields the list only has one element (a list used only for homogeneity of the code)
                 rlList = [fieldValue]
