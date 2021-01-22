@@ -1,7 +1,6 @@
 # MeSH_Extension
 ## Exploring the conceptual provenance of new descriptors introduced during the extension of the MeSH thesaurus 
 
-
 In this work [1], a conceptual framework is introduced for exploring where do new Medical Subject Headings (MeSH) descriptors come from. In particular, the notion of a Previous Host (PH) is defined, as an older MeSH descriptor that used to cover the topic of a new MeSH descriptor, prior to its introduction in the MeSH thesaurus. In this context, new descriptors are annotated with *provenance codes*, grouping the new descriptors into *provenance categories* representing how their PHs can be identified, and *provenance types*, describing their current relationship with their PHs in the MeSH hierarchy. 
 This repository includes the source code and the results of a study [1] on the conceptual provenance of new descriptors in the MeSH thesaurus. 
 
@@ -25,4 +24,4 @@ In particular, it includes:
 
 ## Reference
 
-[1] Nentidis, A., Krithara, A., Tsoumakas, G., & Paliouras, G. (2020). What is all this new MeSH about? Exploring the semantic provenance of new descriptors in the MeSH thesaurus. 
+[1] Nentidis, A., Krithara, A., Tsoumakas, G., & Paliouras, G. (2021). What is all this new MeSH about? Exploring the semantic provenance of new descriptors in the MeSH thesaurus. https://arxiv.org/abs/2101.08293
