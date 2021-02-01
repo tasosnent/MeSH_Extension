@@ -2,11 +2,10 @@
 workingPath: 'D:\\05 MeSHToUMLS\\MeSH_extension\\2005_2020_results'
 # The path to the flder with the XML files for all MeSH versions (both descXXXX.xml and suppXXXX.xml should be available)
 meshXmlPath: 'D:\\03 Big Data\\MeSH_Old\\All'
-# If true, suggest mappings from new descriptors to SCRs (based on PMN fields etc) fr manual review.
+# If true, suggest mappings from new descriptors to SCRs (based on PMN fields etc) for manual review.
 suggestPMNmappings: False
 # If true, calculate average No of concepts per SCR and Descriptor and print for each year.
 calculateConceptAVGs: False
-# If true, suggestinons for SCR-mapping suggestions will be printed for non-matched PMnotes in the log for manual checking. 
 # Additional information will also be printed in the log
 debugMode: False
 # The last year to consider in the analysis, also considered the reference year for provenance type calculation
