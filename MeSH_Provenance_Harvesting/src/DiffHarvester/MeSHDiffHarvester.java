@@ -136,7 +136,8 @@ public class MeSHDiffHarvester {
         Date start = new Date();      
         String descr = " time in";
         /***    Statistics on Provenance Codes, without documents and labels     ***/    
-        initialStats(harvester, oldYearInitial, nowYear);
+//        initialStats(harvester, oldYearInitial, nowYear);
+        findCircles(workingPath, meshXmlPath, oldYearInitial, nowYear);
         descr += " initialStats ";        
         Date end = new Date();
         Helper.printTime(start, end, descr + " from " + oldYearInitial + " until " + nowYear);
@@ -166,6 +167,50 @@ public class MeSHDiffHarvester {
         }
     }
        
+     /**
+     * Identify circles in MeSH hierarchy. That is, find pairs of descriptors that one descriptor is both a descendant and an ancestor of the other. 
+     * @param harvester         A MeSHDiffHarvester object
+     * @param oldYearInitial    The first year to consider
+     * @param nowYear           The current year used as reference and as the last year to consider
+     */ 
+    public static void findCircles(String workingPath,String meshXmlPath, int oldYearInitial, int nowYear ){
+        HashMap <String, HashSet <String>> years =  new HashMap <> ();
+        for(int year = oldYearInitial; year <= nowYear; year ++ ){
+            String curYear = String.valueOf(year);
+            HashSet <String> pairs = new HashSet <String> ();
+            MeSHDiffHarvester harvester = new MeSHDiffHarvester(workingPath, meshXmlPath, curYear);
+            System.out.println(" " + new Date().toString() + " Run for (" + curYear + ")");
+            ArrayList <Descriptor> descs = harvester.loadDescriptors(harvester.inputFolder+"\\desc"+curYear+".xml");
+            for(Descriptor d : descs){
+                ArrayList <String> dtns = d.getTreeNumbers();
+                HashSet <Descriptor> descendants = harvester.getDescendants(d);
+                // for each descendant
+                for(Descriptor dc : descendants){
+                    //for each descendant tree number
+                    for(String dctn : dc.getTreeNumbers()){
+                        for(String tn : d.getTreeNumbers()){
+                            if(tn.contains(dctn)){
+                                System.out.println( d.getDescriptorUI() + " has " + dc.getDescriptorUI() + " as descendant and anscestor.");
+                                System.out.println( "\t"+d.getDescriptorUI() + " TNs: " + d.getTreeNumbers());
+                                System.out.println( "\t"+dc.getDescriptorUI() + " TNs:  " + dc.getTreeNumbers());
+                                if(d.getDescriptorUI().compareTo(dc.getDescriptorUI()) > 0){
+                                    pairs.add(d.getDescriptorUI() + "-" + dc.getDescriptorUI());
+                                } else {
+                                    pairs.add(dc.getDescriptorUI() + "-" + d.getDescriptorUI());
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            years.put(curYear, pairs);
+        }
+         System.out.println("overal circles");
+        for(String y : years.keySet()){
+            System.out.println(y + "\t" + years.get(y).size() + "\t" + years.get(y));
+        }
+    }
+    
     /*  Application Tasks */
 
     /**
