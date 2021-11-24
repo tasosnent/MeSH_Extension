@@ -7,10 +7,12 @@ This repository includes the source code and the results of a study [1] on the c
 ![Alt text](https://github.com/tasosnent/MeSH_Extension/blob/main/Schema.png?raw=true "Overview of the method for Provenance Havesting and Analysis.")
 
 In particular, it includes:
-1. *Harvesting MeSH Versions*: The **MeSH_Provenance_Harvesting** Java project for identifying the new descriptors by comparing different versions of MeSH and annotating them with provenance codes. This project produces a CSV file for each year in the period of study, including all the new descriptors introduced in this year, annotated with *provenance codes*, as well as other related information (the PHs, the parents in the MeSH hierarchy, the MeSH categories, etc).
-2. *Finding Provenance*: The **MeSH_Provenance_Analysis** Python project for processing and analyzing the CSV files produced by the *MeSH_Provenance_Harvesting* project, to produce overall statistics and diagrams, such as bar charts and line charts of the distribution of new descriptors through the years.    
-3. *New Descriptors with Provenance Codes*: The **NewDescriptors_2006_2020.csv** file with the 6,915 new descriptors introduced in MeSH between 2006 and 2020, annotated with provenance codes and other relevant information. The reference year considered for provenance type calculation is 2020.
- * The columns in this file are:
+1. *Harvesting MeSH Versions and Finding Provenance*: The **MeSH_Provenance_Harvesting** Java project for identifying the new descriptors by comparing different versions of MeSH and annotating them with provenance codes. This project produces a CSV file for each year in the period of study, including all the new descriptors introduced in this year, annotated with *provenance codes*, as well as other related information (the PHs, the parents in the MeSH hierarchy, the MeSH categories, etc).
+2. *Analysis of new MeSH descriptor Provenance*: The **MeSH_Provenance_Analysis** Python project for processing and analyzing the CSV files produced by the *MeSH_Provenance_Harvesting* project, to produce overall statistics and diagrams, such as bar charts and line charts of the distribution of new descriptors through the years.    
+3. *New Descriptors with Provenance Codes*: The results of the analysis with 2020 and 2022 as the reference year respectively.
+ * The **NewDescriptors_2006_2020.csv** file with the 6,915 new descriptors introduced in MeSH between 2006 and 2020, annotated with provenance codes and other relevant information. The reference year considered for provenance type calculation is 2020. 
+ * The **NewDescriptors_2006_2022.csv** file with the 7,469 new descriptors introduced in MeSH between 2006 and 2022, annotated with provenance codes and other relevant information. The reference year considered for provenance type calculation is 2022. 
+ * The columns in these files are:
     * Prov. Code	:	The provenance code combining the provenance category and provenance type of the descriptor.
     * Prov. Category	:	The provenance category of the descriptor representing how its PHs have been identified.
     * Prov. Type	:	The provenance type of the descriptor representing the current relationship of the descriptor with its PHs.
@@ -26,4 +28,4 @@ In particular, it includes:
 
 ## Reference
 
-[1] Nentidis, A., Krithara, A., Tsoumakas, G., & Paliouras, G. (2021). What is all this new MeSH about? Exploring the semantic provenance of new descriptors in the MeSH thesaurus. https://arxiv.org/abs/2101.08293
+[1] Nentidis, A., Krithara, A., Tsoumakas, G., & Paliouras, G. What is all this new MeSH about?. Int J Digit Libr (2021). https://doi.org/10.1007/s00799-021-00304-z
